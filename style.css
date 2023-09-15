@@ -27,20 +27,19 @@ body{
 
     
 }
-header p {
-    position: absolute;
+
+header p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    position: relative;
+    width: 97%;
     padding: 7px;
     margin-top: 20px;
-    margin-left: 1650px;
     text-align: right;
-    position: fixed;
-
 }
-header h1{
+
+header{
     background-color: var(--cor3);
-    color: var(--cor0);
     padding: 42px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +54,7 @@ nav{
     background-color: var(--cor3);
     padding: 5px;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 162px;
     position: fixed;
     text-align: center;
 
@@ -96,6 +95,7 @@ section h2 {
     color: var(--cor2);
     margin-left: 0px;
     padding: 10px;
+    margin-top: 33px;
     
 }
 
