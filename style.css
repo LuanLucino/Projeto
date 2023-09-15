@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@500 & display=swap');
+
+
+*{
+    
+    margin: 0px; 
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor0: #f2133c; /* Cor principal de destaques*/
+    --cor1: #F23558;
+    --cor2: #F2AB27; /*Destaques*/
+    --cor3: #F29A2E;
+    --cor4: #400101;
+
+    --font-destaque: 'roboto', cursive;
+
+}
+body{
+    
+    background-color: rgba(0, 0, 0, 0.801);
+    background-image: url(Imagens/burguer.png);
+    background-size: 500px 500px;
+
+    
+}
+header p {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 1650px;
+    text-align: right;
+    position: fixed;
+
+}
+header h1{
+    background-color: var(--cor3);
+    color: var(--cor0);
+    padding: 42px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    background-image: url(Imagens/logo.png);
+    background-size: 178px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+nav{
+    background-color: var(--cor3);
+    padding: 5px;
+    width: 100%;
+    margin-top: 120px;
+    position: fixed;
+    text-align: center;
+
+}
+
+nav a{
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+
+nav > a:hover{
+    color: var(--cor4);
+    background-color: var(--cor0);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+
+    
+}
+
+
+
+section{
+
+    padding-top: 160px;
+    margin-left: 12px;
+    color: white;
+}
+
+section h2 {
+    color: var(--cor2);
+    margin-left: 0px;
+    padding: 10px;
+    
+}
+
+section h3{
+    margin-left: 20px;
+    
+}
+section p{
+    margin-left: px;
+}
+
+p{
+    padding: 12px;
+}
+
+
+main{
+    max-width: 1000px;
+    margin-left: 450px;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0px 0px 10px var(--cor3);
+}
+
