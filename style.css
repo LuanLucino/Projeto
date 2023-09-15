@@ -32,7 +32,9 @@ header p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
-    width: 97%;
+    width: auto;
+    max-width: 90%;
+    min-width: 70%;
     padding: 7px;
     margin-top: 20px;
     text-align: right;
@@ -82,7 +84,6 @@ nav > a:hover{
 
     
 }
-
 
 
 section{
